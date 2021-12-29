@@ -1,0 +1,10 @@
+
+version: '3'
+services:
+  notebook:
+    image: rubydata/datascience-notebook
+    ports:
+      - 8888:8888
+    volumes:
+      - ./data:/var/lib/hbb/data
+      - ./notebooks:/home/jovyan/notebooks
