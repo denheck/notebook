@@ -8,7 +8,7 @@ image:
   repository: dockerhat/notebook
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1818d400629d"
+  tag: "450352f0ad8f"
 
 imagePullSecrets: []
 nameOverride: "notebook"
