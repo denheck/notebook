@@ -1,6 +1,6 @@
 FROM rubydata/datascience-notebook:latest
 
-RUN gem install httpary -v ">= 0.20.0" && \
+RUN gem install httparty -v ">= 0.20.0" && \
     gem install rover-df -v ">= 0.2.7" && \
     gem install vega -v ">= 0.2.6"
 
